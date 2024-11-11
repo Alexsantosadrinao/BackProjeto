@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2gx5rTdnH1c=",
+  "dgSpecHash": "m9AZwqPRArw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Choco\\Desktop\\projetoFinal\\projeto360\\Projeto360.Dominio\\Projeto360.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Tarde\\Desktop\\ProjetoTarefa360\\BackProjeto\\Projeto360.Dominio\\Projeto360.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Choco\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\Choco\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\Choco\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
+    "C:\\Users\\Tarde\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Tarde\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Tarde\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
   ],
   "logs": []
 }

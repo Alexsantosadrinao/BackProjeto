@@ -4,6 +4,8 @@ using Projeto360.Api.Models.Respostas;
 using Projeto360.Aplicacao;
 using Projeto360.Api.Models.Requisicao;
 using System.Formats.Asn1;
+using Projeto360.Dominio.Enumeradores;
+
 
 namespace Projeto360.Api;
 
@@ -32,7 +34,7 @@ public class UsuarioController : Controller
                 TipoUsuario = usuarioCriar.TipoUsuario
             };
 
-            var UsuarioId =   await _usuarioAplicao.Criar(usuarioDominio);
+            var UsuarioId = await _usuarioAplicao.Criar(usuarioDominio);
 
             return Ok(UsuarioId);
         }
@@ -68,7 +70,7 @@ public class UsuarioController : Controller
 
     [HttpGet]
     [Route("ObterEmail")]
-    public async Task<ActionResult>  ObterPoEmail([FromBody] string email)
+    public async Task<ActionResult> ObterPoEmail([FromBody] string email)
     {
         try
         {
@@ -92,12 +94,13 @@ public class UsuarioController : Controller
 
     [HttpPut]
     [Route("Atualizar")]
-    public async Task<ActionResult>  Atualizar([FromBody] UsuarioAtualizar usuario)
+    public async Task<ActionResult> Atualizar([FromBody] UsuarioAtualizar usuario, TipoUsuario tipoUsuario)
     {
         try
         {
             var usuarioDominio = new Usuario()
             {
+                TipoUsuario = tipoUsuario,
                 ID = usuario.ID,
                 Nome = usuario.Nome,
                 Email = usuario.Email
@@ -115,7 +118,7 @@ public class UsuarioController : Controller
 
     [HttpPut]
     [Route("Alterarsenha")]
-    public async Task <IActionResult> AlterarSenha([FromBody] UsuarioAlterarSenha usuario)
+    public async Task<IActionResult> AlterarSenha([FromBody] UsuarioAlterarSenha usuario)
     {
         try
         {
@@ -139,7 +142,7 @@ public class UsuarioController : Controller
 
     [HttpDelete]
     [Route("Deletar/{usuarioId}")]
-    public async Task <IActionResult> Deletar([FromRoute] int usuarioId)
+    public async Task<IActionResult> Deletar([FromRoute] int usuarioId)
     {
         try
         {
@@ -155,7 +158,7 @@ public class UsuarioController : Controller
 
     [HttpPut]
     [Route("Restaurar/{usuarioId}")]
-    public async Task <IActionResult> Restaurar([FromRoute] int usuarioId)
+    public async Task<IActionResult> Restaurar([FromRoute] int usuarioId)
     {
         try
         {
@@ -171,11 +174,11 @@ public class UsuarioController : Controller
 
     [HttpGet]
     [Route("Listar")]
-    public async Task <IActionResult> List([FromQuery] bool ativos)
+    public async Task<IActionResult> List([FromQuery] bool ativos)
     {
         try
         {
-            var usuariosDominio =  await _usuarioAplicao.Listar(ativos);
+            var usuariosDominio = await _usuarioAplicao.Listar(ativos);
 
             var usuarios = usuariosDominio.Select(usuario => new UsuarioResposta()
             {
@@ -195,11 +198,11 @@ public class UsuarioController : Controller
     }
     [HttpGet]
     [Route("ListarTipoUsuario")]
-    public async Task <IActionResult> ListarTipoUsuario()
+    public async Task<IActionResult> ListarTipoUsuario()
     {
         try
         {
-            var nomes =  await _usuarioAplicao.ListaNomesTiposUsuario();
+            var nomes = await _usuarioAplicao.ListaNomesTiposUsuario();
             var valores = await _usuarioAplicao.ListaValoresTiposUsuarios();
 
             List<Object> Usuarios = new List<object>();

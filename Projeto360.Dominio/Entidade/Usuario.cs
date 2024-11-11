@@ -1,4 +1,5 @@
 using Projeto360.Dominio.Enumeradores;
+
 namespace Projeto360.Dominio.Entidades
 {
     public class Usuario

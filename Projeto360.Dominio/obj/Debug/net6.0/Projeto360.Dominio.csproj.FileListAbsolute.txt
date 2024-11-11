@@ -20,3 +20,15 @@ C:\Users\Choco\Desktop\projetoFinal\projeto360\Projeto360.Dominio\obj\Debug\net6
 C:\Users\Choco\Desktop\projetoFinal\projeto360\Projeto360.Dominio\obj\Debug\net6.0\refint\Projeto360.Dominio.dll
 C:\Users\Choco\Desktop\projetoFinal\projeto360\Projeto360.Dominio\obj\Debug\net6.0\Projeto360.Dominio.pdb
 C:\Users\Choco\Desktop\projetoFinal\projeto360\Projeto360.Dominio\obj\Debug\net6.0\ref\Projeto360.Dominio.dll
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\bin\Debug\net6.0\Projeto360.Dominio.deps.json
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\bin\Debug\net6.0\Projeto360.Dominio.dll
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\bin\Debug\net6.0\Projeto360.Dominio.pdb
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\obj\Debug\net6.0\Projeto360.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\obj\Debug\net6.0\Projeto360.Dominio.AssemblyInfoInputs.cache
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\obj\Debug\net6.0\Projeto360.Dominio.AssemblyInfo.cs
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\obj\Debug\net6.0\Projeto360.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\obj\Debug\net6.0\Projeto360.Dominio.sourcelink.json
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\obj\Debug\net6.0\Projeto360.Dominio.dll
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\obj\Debug\net6.0\refint\Projeto360.Dominio.dll
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\obj\Debug\net6.0\Projeto360.Dominio.pdb
+C:\Users\Tarde\Desktop\ProjetoTarefa360\BackProjeto\Projeto360.Dominio\obj\Debug\net6.0\ref\Projeto360.Dominio.dll

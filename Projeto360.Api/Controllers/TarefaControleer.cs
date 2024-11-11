@@ -10,11 +10,11 @@ namespace Projeto360.Api;
 
 [ApiController]
 [Route("[Controller]")]
-public class TarefaControler : Controller
+public class TarefaControleer : Controller
 {
     private readonly ItarefaAplicao _tarefaAaplicao;
 
-    public TarefaControler(ItarefaAplicao tarefaAplicacao)
+    public TarefaControleer(ItarefaAplicao tarefaAplicacao)
     {
         _tarefaAaplicao = tarefaAplicacao;
     }
