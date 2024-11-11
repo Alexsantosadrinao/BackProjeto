@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tGLvDi8xYHE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Choco\\Desktop\\projetoFinal\\projeto360\\Projeto360.Servicoes\\Projeto360.Servicoes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Choco\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Choco\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Choco\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Choco\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}
